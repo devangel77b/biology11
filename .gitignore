@@ -274,3 +274,6 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+*.icloud
+*.icloud
+Q3/.DS_Store
