@@ -1,0 +1,89 @@
+\documentclass[hw,addpoints,noanswers]{exam}
+
+\usepackage[hw]{biology11}
+
+\title{In-class exercise: Classical genetics}
+\date{\today}
+\duedate{in class}
+\author{\mobeardInstructorShort}
+
+\begin{document}
+\maketitle
+
+\begin{questions}
+\question If flies with straight wings (wild type) are crossed with flies with wrinkled wings, all the $f_1$ progeny have straight wings. Using a Punnett square, predict the phenotype of the $f_2$ progeny and their relative proportions.
+\begin{solution}
+Since no flies with wrinkled wings appear as a result of the $P_1$ cross, we will assume the parents were homozygous. Since all $f_1$ progeny had straight wings, we will also assume that straight wings ($S$) are dominant over wrinkled wings ($s$). The $f_1$ progeny, being heterozygous ($Ss$), will produce both $S$ and $s$ gametes in equal numbers. Therefore, the Punnett square for the f1 cross would be:
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+& S & s \\
+\hline
+S & SS & Ss \\
+\hline
+s & Ss & ss \\
+\hline
+\end{tabular}
+\end{center}
+Since S is dominant over s, all genotypes containing even one S will have straight wings; only ss genotypes will express the wrinkled-wing phenotype. Thus, the f2 progeny will show a typical Mendelian dominant-recessive relationship of 3:1.
+\end{solution}
+
+\question A mark of Mendel’s care and persistence is that he performed a test cross on each of the tall plants that arose from the $f_2$ of his original cross with tall and short plants. What ratio of tall to short plants would you expect him to have obtained from his test crosses?
+\begin{solution}
+Mendel’s $f_2$ generation had genotypes in the ratios of 1 $TT$:2 $Tt$:1 $tt$. Looking only at the tall plants produced in this generation (the only plants involved in the test cross), we can see that there are twice as many heterozygotes as homozygotes. Another way of viewing this fact is that, relative to the homozygotes, the heterozygotes produce twice as many gametes and therefore twice as many alleles as the tall homozygotes.
+
+Now, consider how many $T$ alleles versus $t$ alleles there are in the tall population. The homozygous tall plant contributes two $T$ alleles, so there are 2x$T$ alleles contributed by the homozygotes, where x is the total number of homozygous plants. The heterozygous tall plant contributes only one $T$ allele; however, since there are twice as many heterozygotes, these plants also contribute 2x $T$ alleles. The heterozygote also produces a $t$ gamete, and the whole population of heterozygotes produces 2x$t$ alleles. Comparing $T$ and $t$ alleles, there are 4x$T$ alleles (2x + 2x) and 2x $t$ alleles in the population, or a ratio of 2:1. Each of these alleles will combine with a t allele from the homozygous short plant in the test cross; a $T$ allele from the population being tested will produce a tall plant ($Tt$), and a $t$ allele will produce a short plant (tt). Since the ratio of $T$ alleles to t alleles is 2:1, this will also be the ratio of tall to short plants we would expect from the test crosses. This is, in fact, what Mendel obtained and provides clear verification of the law of segregation -- a law with its roots in the operation of chance for the distribution of the discrete particulate alleles.
+\end{solution}
+
+\question Yellow-haired house mice interbreed and produce progeny with a 2:1 ratio of yellow to nonyellow. When yellow is crossed with nonyellow, a 1:1 ratio of the two classes is obtained. Nonyellows interbreed to produce all nonyellow offspring. How can this be explained?
+\begin{solution}
+This would appear to be a case in which yellow is dominant and nonyellow is recessive. The nonyellows always produce nonyellow offspring; this is consistent with its recessive character. The only anomaly is the behavior of the yellows. They seem to be heterozygous but fail to yield the usual 3:1 ratio of a hybrid cross.
+
+The explanation is that the homozygous dominant, $YY$, is a lethal combination and all such individuals die before birth. All surviving yellow mice are therefore hybrid. The hybrid cross, which usually gives a 3:1 ratio, is characterized here by a 2:1 ratio because the homozygous dominant, making up one-third of the dominant phenotype in the cross, does not show up in the final accounting.
+\end{solution}
+
+
+%\question A walnut crossed with a single produced among the progeny only one single-combed offspring. What were the genotypes of the parents?
+%\begin{solution}
+%The single parent could only be homozygous recessive (rrpp). Since a single-combed offspring was produced, each parent would have to provide at least one class of gamete that was rp. Thus, the walnut parent must have had the genotype RrPp. A homozygous dominant genotype for either gene could not yield a gamete with two recessive alleles.
+%\end{solution}
+
+\question  Suppose that $f_1$ crosses between mice heterozygous for normal ear shape ($T$) and a mutant allele ($t$) for twisted ears produce 735 mice with normal ears and 265 mice with twisted ears. Determine whether, within a 0.05 level of significance, these data conform to the Mendelian law of segregation for dominant and recessive alleles. ($\chi^2$ for 0.05 significance is 3.84.)
+\begin{solution}
+According to the law of segregation, we would expect a 3:1 ratio of normal mice to mice with twisted ears. For the sample size of 1000 mice, this would be 750 normal mice and 250 mice with twisted ears. Using chi-square analysis:
+\begin{equation*}
+\chi^2 = \frac{(735-750)^2}{750}+\frac{(235-250)^2}{250}=0.3+0.9=1.2
+\end{equation*}
+Since 1.2 is less than 3.84, the data conform to normal Mendelian segregation. We would attribute the deviation from the expected ratio to chance alone.
+\end{solution}
+\end{questions}
+\end{document}
+
+
+%
+%
+%6.     Mendel did not deal with (a) segregation. (b) incomplete dominance. (c) linkage. (d) both ”
+%“(a)   and (b). (e) both (b) and (c).
+%
+%7.     The alternative forms of a gene are known as (a) isomers. (b) crossovers. (c) translocations. (d)   alleles. (e) none of these.
+%
+%8.     Which is greater (a) the classes of gametes produced by a homozygous individual or (b) the classes of gametes produced by a heterozygote?
+%
+%9.     Which is greater (a) the number of linkage groups in Drosophila or (b) the number of linkage groups in humans?
+%
+%10.     It is not possible to be a carrier (carry the allele for a disease but not have the disease) for traits such as Huntington’s chorea that are caused by the dominant allele.
+%(a) True (b) False
+%
+%11.     X-rays increase the rate of mutation.
+%(a) True (b) False”
+%“12.     The existence of a range of differences for certain traits, rather than two discrete classes, is probably due to the fact that a number of genes are involved in the trait (polygenic inheritance).
+%(a) True (b) False
+%
+%13.     Where multiple alleles exist for a trait, any one individual will have more than two alleles for that trait.
+%(a) True (b) False
+%
+%14.     The banding patterns of the giant chromosomes in the salivary glands of Drosophila larvae permit the association of genes with specific regions of the chromosome.
+%(a) True (b) False
+%
+%15.     A normal woman who is a carrier for hemophilia could expect to have half her sons suffer from the disease.
+(%a) True (b) False”
